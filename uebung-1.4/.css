@@ -1,0 +1,19 @@
+
+h1{
+    color: #28ea86;
+    border-bottom: 1px solid red;
+}
+h2{
+    color: #f50c0c;
+    margin-left: 100px;
+}
+p{
+    font-family: 'verdana', sans-serif;
+    font-size: 10px;
+}
+p, h2{
+    margin-left: 100px;
+}
+img {
+    float: right;
+}
