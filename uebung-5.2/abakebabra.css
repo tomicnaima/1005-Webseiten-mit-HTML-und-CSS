@@ -1,24 +1,76 @@
 html, body {
-    margin: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
-
 header, main, footer {
-    overflow: auto;
+  overflow: auto;
 }
-
 header {
-    /* source https://commons.wikimedia.org/wiki/File:D%C3%B6ner_Kebab_in_Istanbul.jpg */
-    background-image: url('abakebabra.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+  background-image: url('abakebabra.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  color: white;
+  padding: 2rem;
 }
-
-main {
-    background-color: #EEE;
-}
-
 h1 span {
-    display: block;
-    font-size: 0.8em;
+  display: block;
+  font-size: 0.8em;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+main {
+  background-color: #EEE;
+  padding: 2rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+}
+thead td {
+  background-color: #113476;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+}
+tbody td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.subtitle {
+  background-color: #F0F0F0;
+  font-weight: bold;
+  text-align: center;
+}
+footer {
+  background-color: #113476;
+  color: white;
+  padding: 1rem;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

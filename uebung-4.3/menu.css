@@ -1,0 +1,20 @@
+.horizontal-menue {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  background-color: #113476;
+}
+.horizontal-menue li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+.horizontal-menue li a:hover {
+  background-color: #0D2A5C;
+  border-radius: 5px;
+}
